@@ -1,46 +1,74 @@
-# Guia de Instalação e Execução
+# Ignite Timer
 
-Este guia detalha os passos necessários para instalar e executar o projeto Ignite Timer em qualquer máquina. Certifique-se de ter o Node.js instalado em sua máquina antes de prosseguir.
+Bem vindo ao Ignite Timer! O Ignite Timer é uma aplicação SPA que permite a você utilizar um contador para organizar suas tarefas e organizar em uma tabela de histórico.
 
 ## Pré-requisitos
 
-- Node.js (versão 14 ou superior) instalado na máquina.
+Antes de executar esta aplicação em sua máquina, verifique se você possui o seguinte instalado:
 
-## Passo 1: Clonar o repositório
+- Node.js (versão 14 ou superior)
 
-Clone este repositório em sua máquina local utilizando o seguinte comando:
+## Instalação
+
+Siga as instruções abaixo para configurar e executar a aplicação localmente:
+
+1. Clone este repositório para o seu ambiente local:
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
+git clone https://github.com/seu-usuario/ignite-feed.git
 ```
 
-## Passo 2: Instalar as dependências
+2. Navegue até o diretório do projeto:
+3. 
+```bash
+cd ignite-feed
+```
 
-Navegue até o diretório raiz do projeto e execute o seguinte comando para instalar as dependências do projeto:
+3. Instale as dependências do projeto executando o seguinte comando:
 
 ```bash
 npm install
 ```
 
-## Passo 3: Executar o aplicativo
+## Uso
 
-Após a conclusão da instalação das dependências, execute o seguinte comando para iniciar o servidor de desenvolvimento:
+Depois de concluir a instalação, você pode executar a aplicação usando os seguintes comandos:
+
+- Para iniciar o ambiente de desenvolvimento:
 
 ```bash
 npm run dev
 ```
 
-O aplicativo será executado e estará disponível no seguinte endereço: http://localhost:3000. Acesse esse endereço no seu navegador para visualizar e interagir com o aplicativo Ignite Timer.
+Acesse a aplicação em seu navegador através do endereço: http://localhost:3000.
 
-## Scripts disponíveis
+- Para compilar o projeto TypeScript e realizar o build:
 
-Além do comando npm run dev para iniciar o servidor de desenvolvimento, você também pode executar os seguintes scripts:
+```bash
+npm run build
+```
 
-npm run build: Compila e cria uma versão de produção do aplicativo.
-npm run lint: Executa a verificação de linting no código-fonte.
-npm run preview: Inicia um servidor local para visualização da versão de produção.
-Certifique-se de consultar a seção "Scripts disponíveis" no arquivo package.json para mais detalhes sobre cada script.
+- Para executar o ESLint e verificar problemas de linting no código:
 
-## Considerações finais
+```bash
+npm run lint
+```
 
-Ao seguir este guia, você poderá instalar e executar o projeto Ignite Timer em qualquer máquina com Node.js instalado. Sinta-se à vontade para explorar o aplicativo, fazer modificações e personalizá-lo de acordo com suas necessidades. Divirta-se!
+- Para iniciar um servidor de pré-visualização:
+
+```bash
+npm run preview
+```
+
+Certifique-se de que o ambiente de desenvolvimento está em execução para poder visualizar e interagir com a aplicação em seu navegador.
+
+## Configurações adicionais
+Não são necessárias configurações adicionais para executar esta aplicação.
+
+## Contribuindo
+Se você quiser contribuir para este projeto, sinta-se à vontade para enviar pull requests. Ficaremos felizes em receber sua contribuição!
+
+## Licença
+Este projeto está licenciado sob a MIT License.
+
+*Certifique-se de substituir `"seu-usuario"` no comando de clone do Git com seu nome de usuário correto.*
